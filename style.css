@@ -49,11 +49,11 @@ body {
   border-radius: 20px;
   overflow: hidden;
   justify-content: center;
+
+  box-shadow: 0 20px 40px var(--c-neu-dsblue);
 }
 
-.cover {
-  object-fit: cover;
-}
+
 
 /* .wrapper {
   padding: 0 40px;
@@ -80,7 +80,26 @@ body {
 
 .plan {
   display: flex;
+  height: 60px;
   background: var(--c-neu-vpblue);
   padding: 10px;
   border-radius: 10px;
+}
+
+.proceed {
+  margin: 25px 0;
+  line-height: 50px;
+  background-color: var(--c-pri-bblue);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: var(--fw-regular);
+  color: var(--c-neu-white);
+
+  box-shadow: 0 20px 40px var(--c-pri-pblue);
+}
+
+.cancel {
+  text-align: center;
+  font-weight: var(--fw-regular);
+  color: var(--c-neu-dsblue)
 }
